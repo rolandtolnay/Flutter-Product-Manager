@@ -1,0 +1,30 @@
+include: package:pedantic/analysis_options.yaml
+
+linter:
+  rules:
+    - use_function_type_syntax_for_parameters
+    - camel_case_types
+    - unnecessary_new
+    - unnecessary_const
+    - unnecessary_await_in_return
+    - unnecessary_lambdas
+    - prefer_interpolation_to_compose_strings
+    - prefer_collection_literals
+    - prefer_function_declarations_over_variables
+    - prefer_final_locals
+    - prefer_final_fields
+    - prefer_void_to_null
+    - prefer_typing_uninitialized_variables
+    - prefer_generic_function_type_aliases
+    - avoid_positional_boolean_parameters
+    - avoid_returning_null
+    - avoid_returning_this
+    - omit_local_variable_types
+    - file_names
+    
+analyzer:
+  errors:
+    unawaited_futures: ignore
+    
+#   exclude:
+#     - path/to/excluded/files/**
